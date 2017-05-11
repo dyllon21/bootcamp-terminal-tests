@@ -1,5 +1,5 @@
 module.exports = function(name) {
-  return "hello, " + name;
+  return "Hello, " + name;
 };
  // var greet = require('../greet');
  // assert.equal(greet('Janine'),'Hello, Janine');

@@ -1,3 +1,6 @@
+const assert = require('assert');
+var isWeekday = require('../isWeekday');
+
 describe('isWeekdayfunction()',function(){
   it('should print out specific weekday',function(){
     var date = new Date;

@@ -1,3 +1,6 @@
+const assert = require('assert');
+var transportFee = require('../transportFee');
+
 describe('transportFee()', function() {
   it("should return 'R10'", function(){
     var morningShift = transportFee('morning');

@@ -1,3 +1,6 @@
+const assert = require('assert');
+var countAllPaarl = require('../countAllPaarl');
+
 describe('countAllPaarl()', function() {
   it("should return '2'", function() {
     var output = countAllPaarl('CA 345-155,CJ 555-555,CL 345 789,CJ 444-444');

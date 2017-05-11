@@ -1,9 +1,9 @@
 const assert = require('assert');
 var greet = require('../greet');
 
-describe('greet', function(){
+describe('greetfunction()', function(){
   it('should greet Janine correctly', function(){
-    assert.equal('Hello, Janine', greet('Janine'));
+    assert.equal(greet('Janine'), 'Hello, Janine');
   });
 
 });

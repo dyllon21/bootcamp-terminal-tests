@@ -1,3 +1,7 @@
+const assert = require('assert');
+var fromWhere = require('../fromWhere');
+
+
 describe('fromWhere()', function() {
   it("should return 'Paarl'", function() {
     var location = fromWhere('CJ');
